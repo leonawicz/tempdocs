@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TileMap version="1.0.0" tilemapservice="http://tms.osgeo.org/1.0.0">
+      <Title>tmp_raster.tif</Title>
+      <Abstract></Abstract>
+      <SRS>PROJCS["unnamed",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]],PROJECTION["Lambert_Azimuthal_Equal_Area"],PARAMETER["latitude_of_center",90],PARAMETER["longitude_of_center",180],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]</SRS>
+      <BoundingBox minx="-9010456.80197188444436" miny="-9009964.76123128645122" maxx="9009964.76123128645122" maxy="9010456.80197188444436"/>
+      <Origin x="-9010456.80197188444436" y="-9009964.76123128645122"/>
+      <TileFormat width="256" height="256" mime-type="image/png" extension="png"/>
+      <TileSets profile="raster">
+        <TileSet href="3" units-per-pixel="9156.71827398535061" order="3"/>
+        <TileSet href="4" units-per-pixel="4578.35913699267530" order="4"/>
+        <TileSet href="5" units-per-pixel="2289.17956849633765" order="5"/>
+        <TileSet href="6" units-per-pixel="1144.58978424816883" order="6"/>
+        <TileSet href="7" units-per-pixel="572.29489212408441" order="7"/>
+        <TileSet href="8" units-per-pixel="286.14744606204221" order="8"/>
+      </TileSets>
+    </TileMap>
+    
