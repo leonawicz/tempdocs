@@ -2,16 +2,17 @@
     <TileMap version="1.0.0" tilemapservice="http://tms.osgeo.org/1.0.0">
       <Title>tmp_raster.tif</Title>
       <Abstract></Abstract>
-      <SRS>EPSG:3857</SRS>
-      <BoundingBox minx="-179.93689279401815" miny="49.11837907734537" maxx="179.97425167758306" maxy="71.42953038800147"/>
-      <Origin x="-179.93689279401815" y="49.11837907734537"/>
+      <SRS>PROJCS["unnamed",GEOGCS["NAD83",DATUM["North_American_Datum_1983",SPHEROID["GRS 1980",6378137,298.2572221010042,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6269"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4269"]],PROJECTION["Albers_Conic_Equal_Area"],PARAMETER["standard_parallel_1",55],PARAMETER["standard_parallel_2",65],PARAMETER["latitude_of_center",50],PARAMETER["longitude_of_center",-154],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]</SRS>
+      <BoundingBox minx="409671.15047056879848" miny="-2173225.11814295500517" maxx="2381118.15047056879848" maxy="1498276.88185704499483"/>
+      <Origin x="409671.15047056879848" y="-2173225.11814295500517"/>
       <TileFormat width="256" height="256" mime-type="image/png" extension="png"/>
-      <TileSets profile="mercator">
-        <TileSet href="3" units-per-pixel="19567.87923750000118" order="3"/>
-        <TileSet href="4" units-per-pixel="9783.93961875000059" order="4"/>
-        <TileSet href="5" units-per-pixel="4891.96980937500030" order="5"/>
-        <TileSet href="6" units-per-pixel="2445.98490468750015" order="6"/>
-        <TileSet href="7" units-per-pixel="1222.99245234375007" order="7"/>
+      <TileSets profile="raster">
+        <TileSet href="3" units-per-pixel="3084.00000000000000" order="3"/>
+        <TileSet href="4" units-per-pixel="1542.00000000000000" order="4"/>
+        <TileSet href="5" units-per-pixel="771.00000000000000" order="5"/>
+        <TileSet href="6" units-per-pixel="385.50000000000000" order="6"/>
+        <TileSet href="7" units-per-pixel="192.75000000000000" order="7"/>
+        <TileSet href="8" units-per-pixel="96.37500000000000" order="8"/>
       </TileSets>
     </TileMap>
     
